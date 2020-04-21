@@ -12,6 +12,7 @@ function App() {
       <div>
         <PrivateRoute path="/friendslist" component={FriendsList} />
         <Route path ='/login' component={Login}/>
+        <PrivateRoute path ='/addfriend' component={AddFriend} />
         Ew
       </div>
     </Router>
